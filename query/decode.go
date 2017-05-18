@@ -7,6 +7,7 @@ import (
 	"strings"
 )
 
+// Decode parses url.Values and stores the result in the value pointed to by v.
 func Decode(values url.Values, v interface{}) error {
 	rv := reflect.ValueOf(v)
 
