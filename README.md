@@ -1,1 +1,5 @@
 # go-querystring
+
+## LISENSE
+
+MIT
